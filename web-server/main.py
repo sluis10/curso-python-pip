@@ -22,3 +22,8 @@ def run():
 
 if __name__ == '__main__':
     run()
+
+# En la terminal:
+# uvicorn main:app --reload
+# Para correr mi aplicación en un servidor
+# --reload para volver a cargar el comando cada vez que modifique el archivo principal
